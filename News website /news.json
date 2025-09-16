@@ -1,0 +1,70 @@
+{
+  "articles": [
+    {
+      "title": "Tech Conference Highlights",
+      "image":"https://i.ibb.co/yFSjNyF3/1752087790039.jpg",
+      "description": "Biggest tech event of 2025. New gadgets and AI tools showcased.",
+      "category": "Tech",
+      "region": "Global",
+      "tags": ["#AI", "#Innovation"]
+    },
+    {
+      "title": "Cricket Final Match Recap",
+      "image": "https://i.ibb.co/3tpgJ6Q/odi-world-cup-final-2023.webp",
+      "description": "India wins the thrilling final against Australia!",
+      "category": "Sports",
+      "region": "India",
+      "tags": ["#Cricket", "#Sports"]
+    },
+    {
+      "title": "Budget 2025 Updates",
+      "image": "https://i.ibb.co/Z1pVTRvW/34-1738458608226-1738458620802.jpg",
+      "description": "Key tax reforms and tech investments announced.",
+      "category": "Politics",
+      "region": "India",
+      "tags": ["#Budget2025", "#Economy"]
+    },
+    {
+      "title": "Top Movies This Summer",
+      "image": "https://i.ibb.co/9mLbqPZ8/Best-movies-2025-copy-1024x552.jpg",
+      "description": "Blockbuster hits you must watch this season!",
+      "category": "Entertainment",
+      "region": "Global",
+      "tags": ["#Movies", "#Entertainment"]
+    },
+    {
+      "title": "Fitness Trends 2025",
+      "image": "https://i.ibb.co/jvMQWt3q/Grey-Minimalist-Tips-Blog-Banner-31-1024x576.jpg",
+      "description": "New workout and diet routines gaining popularity.",
+      "category": "Health",
+      "region": "Global",
+      "tags": ["#Fitness", "#Health"]
+    },
+    {
+      "title": "Stock Market Hits Record High",
+      "image": "https://i.ibb.co/XrQP2Xvy/Nifty-1667546435835-1719310950439.jpg",
+      "description": "Investors cheer as major indices reach all-time highs amid economic optimism.",
+      "category": "Business",
+      "region": "Global",
+      "tags": ["#StockMarket", "#Finance"]
+    }
+  ],
+  "categories": ["Tech", "Sports", "Politics", "Entertainment", "Health", "Business"],
+  "trendingTags": ["#AI", "#Budget2025", "#WorldCup", "#Movies", "#Fitness"],
+  "regions": ["India", "USA", "Europe"],
+  "weather": {
+    "location": "Delhi",
+    "temp": "35°C",
+    "description": "Sunny"
+  },
+  "stock": {
+    "index": "NIFTY 50",
+    "value": "19,500",
+    "change": "+1.2%"
+  },
+  "comments": [
+    "Great article on sports!",
+    "Loved the tech conference coverage.",
+    "Budget analysis was very detailed."
+  ]
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My News Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Breaking News Ticker -->
+  <div id="breaking-news-ticker">
+    <p>Breaking: Major tech breakthrough announced! | Big match tonight! | New movie releases this weekend!</p>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">MyNews</div>
+
+    <nav id="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Latest News</a>
+      <a href="#">Categories</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="header-right">
+      <input type="text" placeholder="Search...">
+      <select>
+        <option>English</option>
+        <option>Hindi</option>
+        <option>Urdu</option>
+        <option>Bengali</option>
+        <option>Tamil</option>
+      </select>
+      <button id="theme-toggle">🌙</button>
+      <button id="menu-toggle">☰</button>
+      <div id="mood-filters">
+  <span>😄</span>
+  <span>😐</span>
+  <span>😢</span>
+  <span>😡</span>
+</div>
+      <a href="#" id="login-btn">Login</a>
+    </div>
+  </header>
+
+  <!-- Gamification Sidebar -->
+  <aside id="achievements">
+    <h3>Your Achievements</h3>
+    <ul>
+      <li>Top Reader 🔥</li>
+      <li>5 Articles Saved 📑</li>
+      <li>10 Comments 💬</li>
+      <li>Level 3 Reader 🌟</li>
+    </ul>
+  </aside>
+
+  <!-- Main content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>Welcome to MyNews!</h1>
+    </section>
+
+    <!-- Personalized Feed -->
+    <section id="personalized-feed">
+      <h2>Recommended for you</h2>
+      <div class="card-grid">
+        <div class="news-card">
+          <img src="news1.jpg" alt="Tech Conference Photo" loading="lazy">
+          <h3>Big Tech Conference Highlights</h3>
+          <span class="badge-ai">AI Recommended</span>
+          <span class="badge-fact">✅ Verified</span>
+          <button class="btn">🎧 Listen</button>
+          <button class="btn">❤️ Bookmark</button>
+          <button class="btn">⬇️ Save offline</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories">
+      <h2>Categories</h2>
+      <div class="category-grid">
+        <div class="category-card">Tech</div>
+        <div class="category-card">Sports</div>
+        <div class="category-card">Politics</div>
+        <div class="category-card">Entertainment</div>
+      </div>
+    </section>
+
+    <!-- Trending -->
+    <section id="trending">
+      <h2>Trending Now</h2>
+      <div class="tag-list">
+        <span>#WorldCup</span>
+        <span>#Budget2025</span>
+        <span>#NewMovie</span>
+      </div>
+    </section>
+
+    
+
+    <!-- VR News -->
+    <section id="vr-news">
+      <h2>Experience News in 360°</h2>
+      <div class="vr-embed">
+        <iframe width="100%" height="250" src="https://www.youtube.com/embed/1La4QzGeaaQ" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Explore Region -->
+    <section id="explore-region">
+      <h2>Explore by Region</h2>
+      <div id="region-map">
+        <iframe id="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="250" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <div class="region-buttons">
+        <button data-region="India">India</button>
+        <button data-region="USA">USA</button>
+        <button data-region="Europe">Europe</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sidebar -->
+<aside id="sidebar">
+  <h3>Recent Comments</h3>
+  <ul id="sidebar-comments">
+    <!-- Empty initially, comments JSON se aayenge -->
+  </ul>
+  
+  
+    <h3>Popular Tags</h3>
+    <div class="tag-list">
+      <span>#Health</span>
+      <span>#Politics</span>
+      <span>#Travel</span>
+    </div>
+
+    <h3>Advertisements</h3>
+<div class="ad-banner">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5EvT3Yge6S8" frameborder="0" allowfullscreen></iframe>
+</div>
+
+    <h3>Weather</h3>
+    <div id="weather-widget">[Weather widget]</div>
+
+    <h3>Stock Ticker</h3>
+    <div id="stock-ticker">[Stock info]</div>
+
+    <h3>Trending by Location</h3>
+    <div id="location-map"></div>
+
+    <div id="subscribe-digest">
+      <h4>Subscribe to personalized digest</h4>
+      <form>
+        <input type="email" placeholder="Your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <!-- Newsletter -->
+    <section id="newsletter">
+      <h4>Subscribe to our Newsletter</h4>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#">About Us</a> |
+    <a href="#">Privacy Policy</a> |
+    <a href="#">Terms</a> |
+    <a href="#">Contact</a>
+
+    <div class="social-links">
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a>
+    </div>
+
+    <p>© 2025 MyNews. All rights reserved.</p>
+
+
+    <button id="ask-ai-footer">Ask AI 🤖</button>
+  </footer>
+
+  <!-- Snackbar -->
+  <div id="snackbar"></div>
+
+  <!-- Modal chatbot -->
+  <div id="chatbot-modal" class="chatbot-modal">
+    <div class="chatbot-content">
+      <span id="close-chatbot" class="close-btn">×</span>
+      <h2>AI Assistant 🤖</h2>
+      <p>How can I help you today?</p>
+      <input type="text" placeholder="Ask something..." style="width: 100%; padding: 8px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
